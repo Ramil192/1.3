@@ -7,6 +7,15 @@ a {
   text-decoration: none;
 }
 
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   padding: 0px;
   margin: 0px;
@@ -22,4 +31,17 @@ body {
 :focus {
   outline: 0;
   outline-offset: 0;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+button:focus {
+  outline: none;
 }

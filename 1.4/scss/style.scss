@@ -11,8 +11,8 @@
 	padding: 24px 24px 32px 24px;
 	box-shadow: 0px 0px 52px rgba(14, 0, 80, 0.2), 0px 0px 4px rgba(69, 0, 126, 0.02);
 	max-width: 320px;
-	height: 100%;
-	box-sizing: inherit;
+	min-height: 100vh;
+
 	display: flex;
 	flex-direction:column;
 	background-color:#fff;
