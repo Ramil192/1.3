@@ -1,0 +1,12 @@
+.next {
+	display: flex;
+	align-items: center;
+	&__svg {
+		margin-left: 6px;
+	}
+	&__text {
+		display: flex;
+		font-weight: 600;
+		margin-left: 16px;
+	}
+}

@@ -1,0 +1,67 @@
+.repaired-brend-text {
+	margin-top: 24px;
+	padding-bottom: 15px;
+	&__text {
+		font-size: 14px;
+		line-height: 18px;
+		letter-spacing: 0.2px;
+		margin-bottom: 16px;
+	}
+	&__svgNext {
+		margin-left: 8px;
+	}
+	&__readNext {
+		margin-left: 16px;
+		font-size: 16px;
+		color: #1b1c21;
+		display: inline;
+		font-weight: 500;
+	}
+	&__img {
+		margin-top: 30px;
+		margin-left: -16px;
+		width: 320px;
+		height: 200px;
+	}
+	&__text-add {
+		display: none;
+	}
+	@media (min-width: 321px) {
+		& {
+			display: flex;
+			flex-direction: column;
+			&__textBody {
+				margin: 0px auto;
+			}
+			&__img {
+				margin: 30px auto;
+			}
+		}
+	}
+	@media (min-width: 709px) {
+		& {
+			flex-direction: row;
+			&__text-add {
+				display: block;
+			}
+			&__img {
+				margin-left: auto;
+				border-radius: 10px;
+				margin-top: 0px;
+				margin-right: 0px;
+			}
+			&__text-add {
+				font-size: 14px;
+			}
+			&__textBody {
+				margin-right: 50px;
+			}
+		}
+	}
+	@media (min-width: 1120px) {
+		&__img {
+			width: 531px;
+			height: 384px;
+		}
+	}
+}

@@ -1,0 +1,19 @@
+.fon {
+	background-color: #ff3e79;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+	&:hover{
+		transform: scale(1.2);
+	}
+}
+.fon--request-icons {
+	background: #ff3e79 url(/img/ic/Group.svg) 50% no-repeat;
+}
+.fon--search-icons {
+	background: #ff3e79 url(/img/ic/icon.svg) 50% no-repeat;
+}

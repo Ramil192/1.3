@@ -1,0 +1,38 @@
+.nav {
+	overflow: auto;
+	display: flex;
+	&__item {
+		color: #7e7e82;
+		padding: 8px 22px;
+		border: 2px solid transparent;
+		font-size: 16px;
+		white-space: nowrap;
+		&:hover,&:focus{
+			background-color: #fff;
+		border: 2px solid #b8ffec;
+		border-radius: 5%;
+		}
+	 }
+	 &__item--actived {
+		background-color: #fff;
+		border: 2px solid #b8ffec;
+		border-radius: 5%;
+	 }
+
+	 @media (min-width: 1120px) {
+		& {
+			flex-wrap: wrap;
+	
+			&__special-prices {
+				margin-bottom: 0px;
+				margin-top: 0px;
+			}
+			&__reviews {
+				margin-top: 0px;
+				margin-bottom: 0px;
+			}
+		}
+	 }
+ }
+
+ 

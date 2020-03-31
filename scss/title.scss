@@ -1,0 +1,54 @@
+.title {
+	padding: 24px 0px;
+	&__title {
+		font-size: 28px;
+		margin: 0px;
+		font-weight: 700;
+		position: relative;
+		&:before {
+			content: "";
+			display: inline-block;
+			width: 4px;
+			height: 40px;
+			background: #41f6d7;
+			transform: matrix(-1, 0, 0, 1, 0, 0);
+			position: absolute;
+			left: -16px;
+			border-radius: 5px;
+		}
+	}
+	&__request-item, &__search-items {
+		display: none;
+	}
+	@media (min-width: 709px) {
+		&__title:before {
+			left: -24px;
+		}
+	}
+	@media (min-width: 1120px) {
+		& {
+			display: flex;
+			&__title {
+				margin-right: auto;
+			}
+			&__request-item {
+				display: flex;
+				align-items: center;
+			}
+			&__request-text {
+				margin-right: 9px; //тут копи паст как быть ?
+				font-weight: 500;
+			}
+			&__search-items {
+				display: flex;
+				align-items: center;
+				margin-left: 32px;
+			}
+			&__search-text {
+				margin-right: 9px; //тут копи паст  как быть ?
+				font-weight: 500;
+				font-family: "TT Lakes";
+			}
+		}
+	}
+}

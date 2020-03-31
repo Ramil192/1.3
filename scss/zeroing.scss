@@ -1,0 +1,22 @@
+html {
+	box-sizing: border-box;
+	height:100%;
+}
+a {
+	text-decoration: none;
+}
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: "TT Lakes";
+	box-sizing: inherit;
+	background-color: #f8f8f8;
+	font-weight: 500;
+	height:100%;
+}
+:active,
+:hover,
+:focus {
+	outline: 0;
+	outline-offset: 0;
+}
