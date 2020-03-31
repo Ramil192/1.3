@@ -21,9 +21,9 @@
 }
 
 .fon--request-icons {
-  background: #ff3e79 url(/img/ic/Group.svg) 50% no-repeat;
+  background: #ff3e79 url(../img/ic/Group.svg) 50% no-repeat;
 }
 
 .fon--search-icons {
-  background: #ff3e79 url(/img/ic/icon.svg) 50% no-repeat;
+  background: #ff3e79 url(../img/ic/icon.svg) 50% no-repeat;
 }
