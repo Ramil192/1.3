@@ -1,9 +1,6 @@
-
-@import"../../scss/fonts.scss";
-@import"../../scss/zeroing.scss";
-@import"../../scss/fon.scss";
-
-
+@import "../../scss/fonts.scss";
+@import "../../scss/zeroing.scss";
+@import "../../scss/fon.scss";
 
 // ..................................................................
 
@@ -14,26 +11,24 @@
 	min-height: 100vh;
 
 	display: flex;
-	flex-direction:column;
-	background-color:#fff;
-	
-	&__nav{
+	flex-direction: column;
+	background-color: #fff;
+
+	&__nav {
 		margin-top: 57px;
 	}
-	&__help{
+	&__help {
 		margin-top: auto;
 	}
-	&__info{
+	&__info {
 		margin-top: 16px;
 		margin-bottom: 40px;
 	}
-	&__languages{
-
+	&__languages {
 	}
 }
 
 .header {
-
 	&__items {
 		display: flex;
 	}
@@ -52,7 +47,6 @@
 		margin-left: 78px;
 	}
 }
-
 
 .nav {
 	display: flex;
@@ -109,7 +103,6 @@
 	}
 }
 .info {
-
 	&__mail {
 		margin-bottom: 12px;
 		font-weight: 500;

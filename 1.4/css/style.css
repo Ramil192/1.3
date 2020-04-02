@@ -1,17 +1,18 @@
 @font-face {
 	font-family: "TT Lakes";
-	src: url("../fonts/TTLakes-Regular.eot");
-	src: url("../fonts/TTLakes-Regular.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/TTLakes-Regular.woff") format("woff"), url("../fonts/TTLakes-Regular.ttf") format("truetype");
+	src: url("/fonts/TTLakes-Regular.eot");
+
+	src: url("/fonts/TTLakes-Regular.eot?#iefix") format("embedded-opentype"),
+		url("/fonts/TTLakes-Regular.woff") format("woff"), url("/fonts/TTLakes-Regular.ttf") format("truetype");
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: "TT Lakes";
-	src: url("../fonts/TTLakes-Medium.eot");
-	src: url("../fonts/TTLakes-Medium.eot?#iefix") format("embedded-opentype"),
-		url("../fonts/TTLakes-Medium.woff") format("woff"), url("../fonts/TTLakes-Medium.ttf") format("truetype");
+	src: url("/fonts/TTLakes-Medium.eot");
+	src: url("/fonts/TTLakes-Medium.eot?#iefix") format("embedded-opentype"),
+		url("/fonts/TTLakes-Medium.woff") format("woff"), url("/fonts/TTLakes-Medium.ttf") format("truetype");
 	font-weight: 500;
 	font-style: normal;
 }
@@ -87,11 +88,11 @@ button:focus {
 }
 
 .fon--request-icons {
-	background: #ff3e79 url(/img/ic/Group.svg) 50% no-repeat;
+	background: #ff3e79 url(../img/ic/Group.svg) 50% no-repeat;
 }
 
 .fon--search-icons {
-	background: #ff3e79 url(/img/ic/icon.svg) 50% no-repeat;
+	background: #ff3e79 url(../img/ic/icon.svg) 50% no-repeat;
 }
 
 .hidden {
