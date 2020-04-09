@@ -1,0 +1,60 @@
+.brend {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 160px;
+  overflow: hidden;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.brend::after, .brend::before {
+  content: "";
+  width: 240px;
+  height: 1px;
+  display: block;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+}
+
+.brend__btn {
+  margin-bottom: 16px;
+  width: 240px;
+  height: 72px;
+}
+
+.brend div {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+@media (max-width: 1119px) {
+  .brend::after, .brend::before {
+    content: "";
+    width: 224px;
+  }
+  .brend__btn {
+    width: 224px;
+  }
+}
+
+@media (max-width: 740px) {
+  .brend {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .brend::after, .brend::before {
+    content: "";
+    width: 240px;
+  }
+  .brend__btn {
+    width: 240px;
+  }
+}

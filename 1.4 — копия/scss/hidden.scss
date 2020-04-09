@@ -1,0 +1,14 @@
+.hidden {
+	padding: 24px 24px 32px 24px;
+	box-shadow: 0px 0px 52px rgba(14, 0, 80, 0.2), 0px 0px 4px rgba(69, 0, 126, 0.02);
+	max-width: 320px;
+	min-height: 100vh;
+
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+
+	&__nav {
+		margin-top: 57px;
+	}
+}

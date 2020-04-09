@@ -1,0 +1,19 @@
+.btn {
+	padding: 15px 16px;
+	background-color: #fff;
+	border: 1px solid #eaeaea;
+	border-radius: 6px;
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	justify-content: space-between;
+
+	&:before {
+		order: 1;
+		content: "";
+		background-image: url("../img/gored-btn.svg");
+		display: block;
+		width: 40px;
+		height: 40px;
+	}
+}

@@ -1,0 +1,19 @@
+.hidden {
+  padding: 24px 24px 32px 24px;
+  -webkit-box-shadow: 0px 0px 52px rgba(14, 0, 80, 0.2), 0px 0px 4px rgba(69, 0, 126, 0.02);
+          box-shadow: 0px 0px 52px rgba(14, 0, 80, 0.2), 0px 0px 4px rgba(69, 0, 126, 0.02);
+  max-width: 320px;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+}
+
+.hidden__nav {
+  margin-top: 57px;
+}

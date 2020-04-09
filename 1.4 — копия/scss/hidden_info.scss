@@ -1,0 +1,12 @@
+.hidden_info {
+	margin-top: 16px;
+	margin-bottom: 40px;
+	&__mail {
+		margin-bottom: 12px;
+		font-weight: 500;
+	}
+	&__phone {
+		font-weight: bold;
+		font-size: 24px;
+	}
+}

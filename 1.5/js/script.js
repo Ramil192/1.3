@@ -30,9 +30,10 @@ if (document.body.clientWidth < 556) {
 			el: '.swiper-pagination',
 			clickable: true,
 		},
+
 	});
 
-	//console.log("+");
+	console.log(swiper);
 } else {
 	var swiper = document.querySelector('.swiper-container');
 	var swiper_slide = swiper.querySelectorAll('.swiper-slide');
@@ -45,8 +46,7 @@ if (document.body.clientWidth < 556) {
 	for (let i = 0; i < swiper_slide.length; i++) {
 		swiper_slide[i].classList.remove("swiper-slide");
 		swiper_slide[i].style.flexGrow = 0;
-		//console.log("+");
+		
 	}
-
-
+	console.log("-");
 };

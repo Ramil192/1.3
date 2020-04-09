@@ -1,0 +1,59 @@
+.brend {
+	display: flex;
+	flex-wrap: wrap;
+	height: 160px;
+	overflow: hidden;
+	justify-content: space-between;
+	margin-bottom: 24px;
+	margin-top: 24px;
+	&::after,
+	&::before {
+		content: "";
+		width: 240px;
+		height: 1px;
+		display: block;
+		//background-color: red;
+		order: 1;
+	}
+	&__btn {
+		margin-bottom: 16px;
+		width: 240px;
+		height: 72px;
+	}
+	div {
+		flex-grow: 1;
+	}
+}
+
+@media (max-width: 1119px) {
+	.brend {
+		&::after,
+		&::before {
+			content: "";
+			width: 224px;
+		}
+		&__btn {
+			width: 224px;
+		}
+	}
+}
+
+@media (max-width: 740px) {
+	.brend {
+		&::after,
+		&::before {
+			content: "";
+			width: 240px;
+		}
+		justify-content: space-around;
+		&__btn {
+			width: 240px;
+		}
+	}
+}
+
+@media (max-width: 556px) {
+	.brend {
+		display: none;
+	}
+}

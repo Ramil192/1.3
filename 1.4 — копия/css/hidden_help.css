@@ -1,0 +1,14 @@
+.hidden_help {
+  margin-top: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hidden_help__item {
+  margin-right: 16px;
+}
+
+.hidden_help__item:last-child {
+  margin-right: 0px;
+}

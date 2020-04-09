@@ -1,0 +1,10 @@
+.hidden_help {
+	margin-top: auto;
+	display: flex;
+	&__item {
+		margin-right: 16px;
+		&:last-child {
+			margin-right: 0px;
+		}
+	}
+}

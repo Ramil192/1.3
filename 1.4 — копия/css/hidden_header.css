@@ -1,0 +1,20 @@
+.hidden_header__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.hidden_header__byrger {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+
+.hidden_header__logo {
+  margin-left: 16px;
+  margin-top: -6px;
+}
+
+.hidden_header__search {
+  margin-left: 78px;
+}

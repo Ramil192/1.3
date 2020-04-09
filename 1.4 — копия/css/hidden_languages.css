@@ -1,0 +1,16 @@
+.hidden_languages__btn {
+  color: #1b1c21;
+  border: none;
+  background-color: transparent;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.hidden_languages__btn:hover, .hidden_languages__btn:focus {
+  color: #7e7e82;
+}
+
+.hidden_languages__btn--actived {
+  color: #7e7e82;
+}
